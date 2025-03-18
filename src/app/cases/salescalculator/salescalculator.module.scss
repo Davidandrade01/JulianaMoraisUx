@@ -1,0 +1,23 @@
+@import '../../../styles/colors';
+@import '../../../styles/fonts';
+@import '../../../styles/variables';
+
+.summary {
+  li {
+    a {
+      text-decoration: none;
+      color: $dark04;
+    }
+  }
+}
+
+.content {
+  .title {
+    p {
+      color: $dark02;
+    }
+  }
+}
+
+/* Se desejar adicionar estilos específicos para o dropdown em telas pequenas */
+   
