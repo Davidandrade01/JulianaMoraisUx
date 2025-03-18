@@ -1,0 +1,36 @@
+// colors.scss
+$primary: #384BFF;
+$secondary: #BDF7F8;
+
+// Escala de Cores Escuras
+$dark01: #242424;
+$dark02: #696868c4;
+$dark03: #5E5E5E;
+$dark04: #ACBCC9;
+$dark05: #4e5256b0;
+
+// Escala de Cores Claras
+$light01: #FFFF;
+$light02: #FAFAFA;
+$light03: #E8E8E8;
+
+// Variáveis Dependentes
+$glass: rgba($light01, 0.15);
+
+// Exportar Variáveis CSS para uso global
+:root {
+  --primary: #384BFF;
+  --secondary: #BDF7F8;
+
+  --dark01: #242424;
+  --dark02: #696868c4;
+  --dark03: #5E5E5E;
+  --dark04: #ACBCC9;
+  --dark05: #4e5256b0;
+
+  --light01: #FFFF;
+  --light02: #FAFAFA;
+  --light03: #E8E8E8;
+
+  --glass: rgba(255, 255, 255, 0.15); 
+}

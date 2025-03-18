@@ -1,0 +1,54 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/variables';
+
+.box {
+  height: 100px;
+  padding-left: var(--p64);
+  padding-right: var(--p64);
+  padding-top: var(--p40);
+  padding-bottom: var(--p40);
+  background-color: $light01;
+
+  // Somente o menu principal em display flex
+  .navbar-nav {
+    display: flex;
+    gap: 32px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $dark01;
+    font-size: 18px;
+    gap: 40px;
+    
+  }
+  
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+.jm_btn_medium {
+  display: flex; /* garante que o gap seja aplicado corretamente */
+  gap: 40px;
+}
+
+.dropdown-menu,
+.dropdown-menu.show {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+/* Classe que aplica o fundo apenas no mobile */
+.bgMobile {
+  background-color: transparent;
+
+  @media (max-width: 991.98px) {
+    background-color: $light01; // ou use $light01, #f8f9fa etc.
+  }
+}
+
+

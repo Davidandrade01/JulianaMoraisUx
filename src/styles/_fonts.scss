@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root {
+  /* ================== Headder ================== */
+  /* headderLarge */
+  --jm-headderLarge-font-family: 'Lato', sans-serif;
+  --jm-headderLarge-font-size: 36px;
+  --jm-headderLarge-font-weight: 400;
+  --jm-headderLarge-line-height: 57.6px;
+  --jm-headderLarge-letter-spacing: 0;
+
+  /* headderMedium */
+  --jm-headderMedium-font-family: 'Lato', sans-serif;
+  --jm-headderMedium-font-size: 24px;
+  --jm-headderMedium-font-weight: 900;
+  --jm-headderMedium-line-height: 33.6px;
+  --jm-headderMedium-letter-spacing: 0;
+
+  /* headderSmall */
+  --jm-headderSmall-font-family: 'Lato', sans-serif;
+  --jm-headderSmall-font-size: 20px;
+  --jm-headderSmall-font-weight: 900;
+  --jm-headderSmall-line-height: 24px;
+  --jm-headderSmall-letter-spacing: 0;
+
+  /* headderXsmall */
+  --jm-headderXsmall-font-family: 'Lato', sans-serif;
+  --jm-headderXsmall-font-size: 16px;
+  --jm-headderXsmall-font-weight: 700;
+  --jm-headderXsmall-line-height: 28px;
+  --jm-headderXsmall-letter-spacing: 0;
+
+  /* ================== Paragraph ================== */
+  /* paragraphLarge */
+  --jm-paragraphLarge-font-family: 'Noto Sans', sans-serif;
+  --jm-paragraphLarge-font-size: 18px;
+  --jm-paragraphLarge-font-weight: 400;
+  --jm-paragraphLarge-line-height: 1.4;
+  --jm-paragraphLarge-letter-spacing: 0;
+
+  /* paragraphMedium */
+  --jm-paragraphMedium-font-family: 'Noto Sans', sans-serif;
+  --jm-paragraphMedium-font-size: 16px;
+  --jm-paragraphMedium-font-weight: 400;
+  --jm-paragraphMedium-line-height: 1.5;
+  --jm-paragraphMedium-letter-spacing: 0;
+
+  /* paragraphSmall */
+  --jm-paragraphSmall-font-family: 'Noto Sans', sans-serif;
+  --jm-paragraphSmall-font-size: 14px;
+  --jm-paragraphSmall-font-weight: 400;
+  --jm-paragraphSmall-line-height: 1.5;
+  --jm-paragraphSmall-letter-spacing: 0;
+
+  /* paragraphXsmall */
+  --jm-paragraphXsmall-font-family: 'Noto Sans', sans-serif;
+  --jm-paragraphXsmall-font-size: 12px;
+  --jm-paragraphXsmall-font-weight: 400;
+  --jm-paragraphXsmall-line-height: 1.6;
+  --jm-paragraphXsmall-letter-spacing: 0;
+
+  /* ================== Label ================== */
+  /* labelMedium */
+  --jm-labelMedium-font-family: 'Noto Sans', sans-serif;
+  --jm-labelMedium-font-size: 16px;
+  --jm-labelMedium-font-weight: 400;
+  --jm-labelMedium-line-height: 1.3;
+  --jm-labelMedium-letter-spacing: 0;
+
+  /* labelSmall */
+  --jm-labelSmall-font-family: 'Noto Sans', sans-serif;
+  --jm-labelSmall-font-size: 14px;
+  --jm-labelSmall-font-weight: 400;
+  --jm-labelSmall-line-height: 1.14;
+  --jm-labelSmall-letter-spacing: 0;
+
+  /* labelXsmall */
+  --jm-labelXsmall-font-family: 'Noto Sans', sans-serif;
+  --jm-labelXsmall-font-size: 12px;
+  --jm-labelXsmall-font-weight: 400;
+  --jm-labelXsmall-line-height: 1.3;
+  --jm-labelXsmall-letter-spacing: 0;
+
+  /* ================== Logo ================== */
+  --jm-logo-font-family: 'Lato', sans-serif;
+  --jm-logo-font-size: 18px;
+  --jm-logo-font-weight: 700;
+  --jm-logo-line-height: 21.6px;
+  --jm-logo-letter-spacing: 10%;
+  --jm-logo-text-decoration: none !important;
+
+  /* ================== Button - Anchor ================== */
+  /* buttonLarge */
+  --jm-buttonLarge-font-family: 'Lato', sans-serif;
+  --jm-buttonLarge-font-size: 18px;
+  --jm-buttonLarge-font-weight: 300;
+  --jm-buttonLarge-line-height: 25.2px;
+  --jm-buttonLarge-letter-spacing: 4%;
+
+  /* buttonMedium */
+  --jm-buttonMedium-font-family: 'Lato', sans-serif;
+  --jm-buttonMedium-font-size: 16px;
+  --jm-buttonMedium-font-weight: 500;
+  --jm-buttonMedium-line-height: 1.3;
+  --jm-buttonMedium-letter-spacing: 0.02em;
+
+  /* buttonHiperlinkSmall */
+  --jm-buttonHiperlinkSmall-font-family: 'Lato', sans-serif;
+  --jm-buttonHiperlinkSmall-font-size: 14px;
+  --jm-buttonHiperlinkSmall-font-weight: 300;
+  --jm-buttonHiperlinkSmall-line-height: 16.8px;
+  --jm-buttonHiperlinkSmall-letter-spacing: 4%;
+
+  /* buttonHiperlinkXsmall */
+  --jm-buttonHiperlinkXsmall-font-family: 'Lato', sans-serif;
+  --jm-buttonHiperlinkXsmall-font-size: 12px;
+  --jm-buttonHiperlinkXsmall-font-weight: 300;
+  --jm-buttonHiperlinkXsmall-line-height: 14.4px;
+  --jm-buttonHiperlinkXsmall-letter-spacing: 0;
+
+  /* ================== About ================== */
+  --jm-aboutSmall-font-family: 'Lato', sans-serif;
+  --jm-aboutSmall-font-size: 14px;
+  --jm-aboutSmall-font-weight: 300;
+  --jm-aboutSmall-line-height: 14.4;
+  --jm-aboutSmall-letter-spacing: 4%;
+}
+
+/* ================== Headder ================== */
+.jm_headderLarge {
+  font-family: var(--jm-headderLarge-font-family);
+  font-size: var(--jm-headderLarge-font-size);
+  font-weight: var(--jm-headderLarge-font-weight);
+  line-height: var(--jm-headderLarge-line-height);
+  letter-spacing: var(--jm-headderLarge-letter-spacing);
+}
+
+.jm_headderMedium {
+  font-family: var(--jm-headderMedium-font-family);
+  font-size: var(--jm-headderMedium-font-size);
+  font-weight: var(--jm-headderMedium-font-weight);
+  line-height: var(--jm-headderMedium-line-height);
+  letter-spacing: var(--jm-headderMedium-letter-spacing);
+}
+
+.jm_headderSmall {
+  font-family: var(--jm-headderSmall-font-family);
+  font-size: var(--jm-headderSmall-font-size);
+  font-weight: var(--jm-headderSmall-font-weight);
+  line-height: var(--jm-headderSmall-line-height);
+  letter-spacing: var(--jm-headderSmall-letter-spacing);
+}
+
+.jm_headderXsmall {
+  font-family: var(--jm-headderXsmall-font-family);
+  font-size: var(--jm-headderXsmall-font-size);
+  font-weight: var(--jm-headderXsmall-font-weight);
+  line-height: var(--jm-headderXsmall-line-height);
+  letter-spacing: var(--jm-headderXsmall-letter-spacing);
+}
+
+/* ================== Paragraph ================== */
+.jm_paragraphLarge {
+  font-family: var(--jm-paragraphLarge-font-family);
+  font-size: var(--jm-paragraphLarge-font-size);
+  font-weight: var(--jm-paragraphLarge-font-weight);
+  line-height: var(--jm-paragraphLarge-line-height);
+  letter-spacing: var(--jm-paragraphLarge-letter-spacing);
+}
+
+.jm_paragraphMedium {
+  font-family: var(--jm-paragraphMedium-font-family);
+  font-size: var(--jm-paragraphMedium-font-size);
+  font-weight: var(--jm-paragraphMedium-font-weight);
+  line-height: var(--jm-paragraphMedium-line-height);
+  letter-spacing: var(--jm-paragraphMedium-letter-spacing);
+}
+
+.jm_paragraphSmall {
+  font-family: var(--jm-paragraphSmall-font-family);
+  font-size: var(--jm-paragraphSmall-font-size);
+  font-weight: var(--jm-paragraphSmall-font-weight);
+  line-height: var(--jm-paragraphSmall-line-height);
+  letter-spacing: var(--jm-paragraphSmall-letter-spacing);
+}
+
+.jm_paragraphXsmall {
+  font-family: var(--jm-paragraphXsmall-font-family);
+  font-size: var(--jm-paragraphXsmall-font-size);
+  font-weight: var(--jm-paragraphXsmall-font-weight);
+  line-height: var(--jm-paragraphXsmall-line-height);
+  letter-spacing: var(--jm-paragraphXsmall-letter-spacing);
+}
+
+/* ================== Label ================== */
+.jm_labelMedium {
+  font-family: var(--jm-labelMedium-font-family);
+  font-size: var(--jm-labelMedium-font-size);
+  font-weight: var(--jm-labelMedium-font-weight);
+  line-height: var(--jm-labelMedium-line-height);
+  letter-spacing: var(--jm-labelMedium-letter-spacing);
+}
+
+.jm_labelSmall {
+  font-family: var(--jm-labelSmall-font-family);
+  font-size: var(--jm-labelSmall-font-size);
+  font-weight: var(--jm-labelSmall-font-weight);
+  line-height: var(--jm-labelSmall-line-height);
+  letter-spacing: var(--jm-labelSmall-letter-spacing);
+}
+
+.jm_labelXsmall {
+  font-family: var(--jm-labelXsmall-font-family);
+  font-size: var(--jm-labelXsmall-font-size);
+  font-weight: var(--jm-labelXsmall-font-weight);
+  line-height: var(--jm-labelXsmall-line-height);
+  letter-spacing: var(--jm-labelXsmall-letter-spacing);
+}
+
+/* ================== Logo ================== */
+.jm_logo {
+  font-family: var(--jm-logo-font-family);
+  font-size: var(--jm-logo-font-size);
+  font-weight: var(--jm-logo-font-weight);
+  line-height: var(--jm-logo-line-height);
+  letter-spacing: var(--jm-logo-letter-spacing);
+  text-decoration: var(--jm-logo-text-decoration);
+}
+
+/* ================== Buttons ================== */
+.jm_btn_large {
+  font-family: var(--jm-buttonLarge-font-family);
+  font-size: var(--jm-buttonLarge-font-size);
+  font-weight: var(--jm-buttonLarge-font-weight);
+  line-height: var(--jm-buttonLarge-line-height);
+  letter-spacing: var(--jm-buttonLarge-letter-spacing);
+}
+
+.jm_btn_medium {
+  font-family: var(--jm-buttonMedium-font-family);
+  font-size: var(--jm-buttonMedium-font-size);
+  font-weight: var(--jm-buttonMedium-font-weight);
+  line-height: var(--jm-buttonMedium-line-height);
+  letter-spacing: var(--jm-buttonMedium-letter-spacing);
+}
+
+.jm_btn_hiperlink_small {
+  font-family: var(--jm-buttonHiperlinkSmall-font-family);
+  font-size: var(--jm-buttonHiperlinkSmall-font-size);
+  font-weight: var(--jm-buttonHiperlinkSmall-font-weight);
+  line-height: var(--jm-buttonHiperlinkSmall-line-height);
+  letter-spacing: var(--jm-buttonHiperlinkSmall-letter-spacing);
+}
+
+.jm_btn_hiperlink_xsmall {
+  font-family: var(--jm-buttonHiperlinkXsmall-font-family);
+  font-size: var(--jm-buttonHiperlinkXsmall-font-size);
+  font-weight: var(--jm-buttonHiperlinkXsmall-font-weight);
+  line-height: var(--jm-buttonHiperlinkXsmall-line-height);
+  letter-spacing: var(--jm-buttonHiperlinkXsmall-letter-spacing);
+}
+
+/* ================== About ================== */
+.jm_aboutSmall {
+  font-family: var(--jm-aboutSmall-font-family);
+  font-size: var(--jm-aboutSmall-font-size);
+  font-weight: var(--jm-aboutSmall-font-weight);
+  line-height: var(--jm-aboutSmall-line-height);
+  letter-spacing: var(--jm-aboutSmall-letter-spacing);
+}

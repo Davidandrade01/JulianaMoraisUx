@@ -1,0 +1,71 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/variables';
+
+.footerContainer {
+  position: relative;
+  width: 100vw;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // Imagem para desktop é exibida por padrão (telas acima de 1024px)
+  .desktopImage {
+    display: block;
+  }
+  
+  // Imagens tablet e mobile ficam ocultas por padrão
+  .tabletImage,
+  .mobileImage {
+    display: none;
+  }
+
+  .footerContent {
+    position: absolute;   // Sobrepõe à imagem
+    z-index: 1;           // Garante que fique acima
+    top: 45%;             // Centraliza verticalmente (ajuste se necessário)
+    left: 51%;            // Centraliza horizontalmente (ajuste se necessário)
+    transform: translate(-56%, -50%);
+    color: $dark01;
+
+    .mail {
+      margin-bottom: 48px;
+    }
+     
+    a {
+      text-decoration: none;
+      color: $dark01;
+    }
+  }
+}
+
+/* Media Query para tablets (de 768px até 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footerContainer {
+    .desktopImage {
+      display: none;
+    }
+    .tabletImage {
+      display: block;
+    }
+    .mobileImage {
+      display: none;
+    }
+  }
+}
+
+/* Media Query para dispositivos móveis (até 767px) */
+@media (max-width: 767px) {
+  .footerContainer {
+    .desktopImage {
+      display: none;
+    }
+    .tabletImage {
+      display: none;
+    }
+    .mobileImage {
+      display: block;
+    }
+  }
+}

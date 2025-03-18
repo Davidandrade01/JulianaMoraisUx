@@ -1,0 +1,23 @@
+@import'../../styles/colors';  
+@import'../../styles/fonts';
+@import '../../styles/variables';
+
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+
+    h1{
+        margin-bottom:var(--m64),
+        
+    }
+
+   
+    
+}
+
+

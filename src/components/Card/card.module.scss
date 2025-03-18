@@ -1,0 +1,45 @@
+.card {
+  position: relative;
+  height: 532px;
+  width: 364px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 72px;
+  transition: background 0.3s ease-in-out;
+
+  /* Overlay via pseudo-elemento usando a variável CSS */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--overlay-image);
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+
+  /* No hover, o overlay desaparece */
+  &:hover::before {
+    opacity: 1;
+  }
+}
+
+.card-img-top {
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center 40%, rgba(104, 186, 215, 0.5) 0%, transparent 60%);
+}
+
+.cardBodyText {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  height: 50px;
+}
